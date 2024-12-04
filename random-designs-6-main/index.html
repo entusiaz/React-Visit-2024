@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>HTML + CSS</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles_global.css" />
+  <script src="https://kit.fontawesome.com/25dd014fa5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter|Playfair+Display">
+</head>
+
+<body>
+  <div class="total">
+    <div class="container container-0 nav">
+      <div class="container-"><i><img src="images/icons/flash.png" /></i><span>Swap</span></div>
+      <span class="container-sub-text">Fast as lightening</span>
+    </div>
+    <div class="container container-1">
+      <div>
+        <span class="container-1-left">0.3ETH</span>
+        <span class="container-1-right"><img class="select-icon" src="images/icons/arrow-down.png" alt=""> <img
+            class="money-icon" src="images/icons/eth-svgrepo-com.png" alt=""></span>
+      </div>
+      <div>MAX</div>
+      <div class="divider">
+        <span><img src="images/icons/angles.png" alt=""></span>
+      </div>
+    </div>
+    <div class="container container-2">
+      <div>
+        <span class="container-2-left">0.013 BTC</span>
+        <span class="container-2-right"><img class="select-icon" src="images/icons/arrow-down.png" alt=""> <img
+            class="money-icon" src="images/icons/bitcoin-svgrepo-com (2).svg" alt=""></span>
+      </div>
+      <div>$623.00</div>
+      <!-- <div class="divider">
+        <span><img src="images/icons/angles.png" alt=""></span>
+      </div> -->
+    </div>
+    <div class="container container-3">
+      <div class="compare-box">
+        <img class="compare-icon" src="images/icons/c-wallet.png" alt="">
+        <span class="compare-text">Balance: 3.654 ETH</span>
+      </div>
+      <div class="compare-box">
+        <img class="compare-icon" src="images/icons/c-coin.png" alt="">
+        <span class="compare-text">1 ETH =
+          $2,306.31</span>
+      </div>
+      <div class="compare-box">
+        <img class="compare-icon" src="images/icons/c-timer.png" alt="">
+        <span class="compare-text">~ 3 Mins</span>
+      </div>
+
+      <div class="divider-2"></div>
+    </div>
+    <div class="container container-4">
+      <span>Network volume</span>
+      <div class="colors">
+        <span class="color color-1"></span>
+        <span class="color color-2"></span>
+        <span class="color color-3"></span>
+        <span class="color color-4"></span>
+        <span class="color color-5"></span>
+        <span class="color color-6"></span>
+        <span class="color color-7"></span>
+        <span class="color color-8"></span>
+        <span class="color color-9"></span>
+        <span class="color color-10"></span>
+        <span class="color color-11"></span>
+        <span class="color color-12"></span>
+        <span class="color color-13"></span>
+        <span class="color color-14"></span>
+        <span class="color-divider"></span>
+      </div>
+      <span class="low">Low</span>
+      <span class="high">High</span>
+
+      <div class="divider-2 div2"></div>
+    </div>
+    <div class="container container-5">
+      <span class="container-5-title">Transaction fee</span>
+
+      <div class="trans-section">
+        <div class="trans-box">
+          <img class="trans-icon" src="images/icons/t-cup.png" alt="">
+          <span class="trans-text">Normal: $0.82</span>
+        </div>
+        <div class="trans-box">
+          <img class="trans-icon" src="images/icons/t-crown.png" alt="">
+          <span class="trans-text">Fast: $1.02</span>
+        </div>
+        <div class="trans-box">
+          <img class="trans-icon" src="images/icons/t-flash.png" alt="">
+          <span class="trans-text">Lightening fast: $2.00</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
+
+
+<style>
+  .divider {
+    display: inline-block;
+    margin-top: 60px;
+    position: relative;
+    vertical-align: middle;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .divider img {
+    border: 0;
+    width: 12px;
+    vertical-align: middle;
+  }
+
+  .divider::before {
+    content: '';
+    display: inline-block;
+    width: 140px;
+    height: 0.5px;
+    background-color: #696969;
+    vertical-align: middle;
+  }
+
+  .divider::after {
+    content: '';
+    display: inline-block;
+    right: 0;
+    width: 140px;
+    height: 0.5px;
+    background-color: #696969;
+    vertical-align: middle;
+  }
+
+  .divider-2 {
+    height: 0.5px;
+    width: auto;
+    background-color: #464646;
+  }
+
+  .div2 {
+    margin-top: 50px;
+  }
+</style>

@@ -1,0 +1,86 @@
+.page {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.container {
+    width: max-content;
+    height: 60px;
+    margin: 8px 0 8px 0;
+    border-radius: 8px;
+    }
+
+.nofocus-box {
+    width: 326px;
+    position: relative;
+    box-shadow: 0px 2px 8px 4px rgba(136, 136, 136, 0.09);
+    /* margin: auto; */
+}
+.nofocus-box .right-lines {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0 auto;
+}
+.nofocus-box .right-lines div:first-of-type {
+    margin-bottom: 4px;
+    width: 250px;
+    margin: 8px auto 4px auto;
+}
+
+.focus-box{
+    border: 1px solid rgb(186, 16, 172);
+    box-shadow: 0px 4px 6px 4px rgba(111, 0, 125, 0.09);
+
+}
+
+.left-box {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 4px 0px 4px 4px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.right-lines  {
+    display: inline-block;
+    vertical-align: middle;
+
+    top: 0;
+    bottom: 0;
+    margin:  0px 8px 0px 8px;
+}
+
+.right-lines div
+{
+
+    width: 200px;
+    height: 8px;
+    background-color: rgb(235, 235, 235);
+    /* border: 1px solid; */
+    border-radius: 8px;;
+}
+
+.right-lines div:first-of-type {
+    margin-bottom: 4px;
+    width: 250px;
+}
+.right-lines div:nth-of-type(2) {
+    width: 200px;
+    margin: auto;
+}
+.right-lines div:last-of-type {
+    margin-top: 4px;
+    width: 150px;
+    margin: 4px auto;
+}
